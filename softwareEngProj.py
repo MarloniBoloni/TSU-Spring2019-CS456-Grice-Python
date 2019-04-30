@@ -1,5 +1,5 @@
 #open file given filename from user
-filename = input("please type in filename >> ")
+filename = input("please type in filename >> ")  #Not good enough 
 file = open(filename, 'r')
 #read in text and print
 text = file.read()

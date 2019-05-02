@@ -10,7 +10,7 @@ listOfWords = text.split()
 print(listOfWords)
 nonrepWords = {} #creating a dictionary of non repeating words
 #if word in dictionary, increment count, if not, put in dictionary and enter 1 as count
-for word in listOfWords:        
+for word in listOfWords:
     if word not in nonrepWords:
         nonrepWords[word] = 1
     else:
